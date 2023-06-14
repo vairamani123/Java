@@ -26,8 +26,8 @@ public class MainClass implements Serializable  {
 			String un = null;
 			String pwd = null;
 
-			BiPredicate<String, String> validateUsernamePassword = (username, password) -> username.equals("Gokul")
-					&& password.equals("12345");
+			BiPredicate<String, String> validateUsernamePassword = (username, password) -> username.equals("Vairu")
+					&& password.equals("abc123");
 
 			InputStreamReader isr = new InputStreamReader(System.in);
 			BufferedReader br = new BufferedReader(isr);
